@@ -45,7 +45,7 @@ class GameBot {
                     }
                 }
             })
-        }, 2500)
+        }, 3000)
     }
 
     start_bot() {
