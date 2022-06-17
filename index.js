@@ -1,7 +1,6 @@
 const request = require('request')
 const art     = require('ascii-art')
 
-
 class GameBot {
     bot_name = 'BlazeBot'
     constructor() {
@@ -27,7 +26,6 @@ class GameBot {
             request('https://blaze.com/api/roulette_games/recent', (error, response, body) => {
                 if (numbers.length === 0) {
                     numbers = JSON.parse(body)
-
                 } else {
                     // check if the arrays are equal
                     if (JSON.stringify(numbers) !== JSON.stringify(JSON.parse(body))) {
