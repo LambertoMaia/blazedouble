@@ -1,13 +1,13 @@
 {
-  "name": "nodeapp",
+  "name": "blazebot",
   "version": "1.0.0",
-  "description": "Normal node app",
+  "description": "Blaze Double Bot",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "",
-  "license": "ISC",
+  "license": "MIT",
   "dependencies": {
     "ascii-art": "^2.8.5",
     "request": "^2.88.2"
